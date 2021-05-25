@@ -14,12 +14,17 @@ body {
 }
 
 .card {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-evenly;
   background-color: hsl(244, 38%, 16%);
   font-family: inter;
-  width: auto;
+  width: 900px;
   margin: auto;
-  height: 800px;
+}
+
+.info {
+  width: 450px;
+  margin: 30px;
 }
 
 h1 {
@@ -36,7 +41,7 @@ p {
 }
 
 h3 {
-  color: hsla(0, 0%, 100%, 0.6);
+  color: white;
 }
 
 .stats {
@@ -46,4 +51,9 @@ h3 {
 
 .stats p {
   font-family: Lexend Deca;
+}
+
+.image {
+  color-adjust: violet;
+  width: 450px;
 }
