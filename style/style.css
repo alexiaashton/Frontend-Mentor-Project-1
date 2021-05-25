@@ -19,7 +19,11 @@ body {
   font-family: inter;
   width: auto;
   margin: auto;
-  height: 800px;
+  height: 400px;
+}
+
+.info {
+  width: 200px;
 }
 
 h1 {
