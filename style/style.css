@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -8,9 +10,40 @@
 
 body {
   background-color: hsl(233, 47%, 7%);
+  justify-content: center;
 }
 
 .card {
   display: inline-flex;
   background-color: hsl(244, 38%, 16%);
+  font-family: inter;
+  width: auto;
+  margin: auto;
+  height: 800px;
+}
+
+h1 {
+  color: white;
+}
+
+.violet {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  font-style: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h3 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats {
+  display: inline-flex;
+  padding: 20px;
+}
+
+.stats p {
+  font-family: Lexend Deca;
 }
