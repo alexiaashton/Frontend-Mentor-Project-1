@@ -60,6 +60,7 @@ h3 {
   display: inline-flex;
   padding: 30px;
   width: 400px;
+  letter-spacing: 3px;
 }
 
 .stats p {
@@ -73,10 +74,11 @@ h3 {
 
 .specifics {
   margin: 15px;
-  line-height: 15px;
+  line-height: 25px;
 }
 
 .image {
   width: 500px;
   object-fit: fill;
+  filter: violet;
 }
