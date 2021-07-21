@@ -3,14 +3,30 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 2em;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
 }
 
+body,
+html {
+  height: 100%;
+}
 body {
   background-color: hsl(233, 47%, 7%);
   justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 50px;
 }
 
 .card {
@@ -20,7 +36,6 @@ body {
   font-family: inter;
   width: 1000px;
   height: 400px;
-  margin: auto;
 }
 
 .info {
@@ -80,8 +95,10 @@ h3 {
 .image {
   width: 500px;
   object-fit: fill;
-  background-color: violet;
-  background-image: url(/images/image-header-desktop.jpg);
   background-size: cover;
   mix-blend-mode: multiply;
+}
+
+.image-background {
+  background-color: hsl(277, 64%, 61%);
 }
