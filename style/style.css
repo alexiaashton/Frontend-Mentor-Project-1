@@ -80,5 +80,8 @@ h3 {
 .image {
   width: 500px;
   object-fit: fill;
-  filter: violet;
+  background-color: violet;
+  background-image: url(/images/image-header-desktop.jpg);
+  background-size: cover;
+  mix-blend-mode: multiply;
 }
