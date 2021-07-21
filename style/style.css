@@ -23,10 +23,10 @@ body {
 }
 
 .card-container {
+  height: 100%;
   display: flex;
-  align-items: stretch;
-  justify-content: space-around;
-  padding: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
@@ -97,6 +97,8 @@ h3 {
   object-fit: fill;
   background-size: cover;
   mix-blend-mode: multiply;
+  padding: 0px;
+  height: 100%;
 }
 
 .image-background {
